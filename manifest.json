@@ -1,0 +1,12 @@
+{
+  "name": "Video Speeder",
+  "description": "Speedup HTML5 videos.",
+  "permissions": ["activeTab"],
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+    },
+  "browser_action": {"default_title": "Speedup this video!" },
+  "manifest_version": 2
+}
